@@ -13,6 +13,7 @@
     #wrap .intro .container .sponsor_question {font-size:1.25rem;  width:333px; height:54px; line-height:1.7;}
     /* ==========================2행 quiz */
     #wrap .quiz {padding:150px 80px;}
+    #wrap .quiz .container #left_quiz h2 {font-size:2.5rem;}
     /* ==========================3행 */
     #wrap .ad {padding:200px 80px;}
     #wrap .ad .container h2 {font-size:2.5rem;}
