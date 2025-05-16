@@ -17,7 +17,18 @@
     /* ==========================3행 */
     #wrap .ad {padding:200px 80px;}
     #wrap .ad .container h2 {font-size:2.5rem;}
-    
+    #wrap .ad .container iframe {height:600px;}
+    /* ==========================4행 */
+    #wrap .story {padding:200px 80px;}
+    #wrap .story .container {width:100%;}
+    #wrap .story .container h2 {font-size:2.5rem;}
+    #wrap .story .container p:nth-of-type(1) {font-size:1.375rem;}
+    /* ==========================5행 인류재앙 */
+    #wrap .disaster {padding:200px 80px;}
+    #wrap .disaster .container h2 {font-size:2.5rem; margin-bottom:40px;}
+    #wrap .disaster .container > p {margin-bottom:40px;}
+    #wrap .disaster .container .list li .bg p {font-size:1rem;}
+    #wrap .disaster .container .list li > p {font-size:1rem;}
 }  
 /* mobile 849~320 */
 @media screen and (max-width:849px) {
@@ -31,4 +42,19 @@
     #wrap .ad {padding:50px 15px;}
     #wrap .ad .container h2 {font-size:1.375rem;}
     #wrap .quiz .container iframe {height:400px;}
+    #wrap .ad .container iframe {height:400px;}
+    /* ==========================4행 */
+    #wrap .story {padding:70px 15px;}
+    #wrap .story .container h2 {font-size:1.375rem;}
+    #wrap .story .container p:nth-of-type(1) {
+        font-size:0.813rem;
+        margin:20px 0;
+    }
+    /* ==========================5행 */
+    #wrap .disaster .container h2 {font-size:1.375rem;}
+    #wrap .disaster .container > p {font-size:0.813rem;}
+    #wrap .ad .container h2 {font-size:1.375rem;}
+    #wrap .disaster .container .list {flex-flow:column nowrap;}
+    #wrap .disaster .container .list li .bg {height:150px;}
+    #wrap .disaster .container .list li > p {height:max-content; font-size:0.813rem;}
 }
